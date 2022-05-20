@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<!--permet de savoir en quel langue la page a été crée, id:est utilisé au niveau du footer-->
+<html lang="de" id="oben">
+  <!--Kommentar: head enthält Informationen über diese webseite-->
+  <head>
+    <meta  charset="utf-8">
+    <title>Startseite</title>
+    <!--permet de donner une description en bas du lien-->
+    <meta name="description" content="In diesem kurz lernen sie das Erstellen und Gestalten von Webseiten">
+
+
+    <!--Permet de voir aussi la page sur des petits ecrans comme le telephon-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no">
+     
+    <link href="design.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+
+  </head>
+  <body>
+    <!-- header:für die Kopfbereiche-->
+    <header>
+      
+      <!--nav: für Navigationsblöcke-->
+  <nav class="site-nav">
+    <ul class="site-nav-list">
+      <li class="active"><a href="page.html"><i class="fa fa-home"></i>Startseite</a></li>
+      <li class="active"><a href="menu.html"><i class="fa fa-bars"></i>Menu</a>
+        <div class="sub-menu-1">
+          <ul>
+            <li><a href="Teil1">Menu 1</a>
+            </li>
+            <li><a href="Teil2">Menu 2</a>
+            </li>
+            <li><a href="Teil2">Menu 3</a>
+            </li>
+          </ul>
+        </div>
+        
+      </li>
+      <li class="active"><a href="new.html"><i class="fa fa-newspaper-o"></i>News</a></li>
+      <li class="active"><a href="reservation.html"><i class="fa fa-clone"></i>Über uns </a>
+        <div class="sub-menu-1">
+          <ul>
+            <li ><a href="mission">mission</a>
+            </li>
+            <li><a href="Vision">Vision</a>
+            </li>
+            <li><a href="Team">Team</a>
+            </li>
+          </ul>
+        </div></li>
+      <li class="active"><a href="contact"><i class="fa fa-phone"></i>Kontakt</a></li>
+
+    </ul>
+
+
+  </nav>
+
+  <div id="imageprincipale">
+    <h1>Restaurant, Bar, Glacier au Bord de la Mer</h1>
+    <div id="premierTrait"></div>
+    <h3>Les delicieux petit Plats-Chaud</h3>
+
+  </div>
+
+    </header>
+
+
+
+  <!--main: für den Hauptinhalt der Seite-->
+  <main class="site-content">
+    <!-- section:permet de sectionner la page -->
+    <section class="content-intro">
+     <h2>Willkommen</h2>
+                  <!--Strong: mettre en gras--> 
+     <p>Webseiten bestehen aus <strong> Kästchen.</strong>Alles Rund ist entweder Trick, Grafik oder beides</p>
+
+     <p>Beim Umgang mit diesen Kästchen haben <em> HTML </em> und <em> klar </em>getrennte Aufgaben:</p>
+
+     <!--UL: Permet de mettre les tirer et de lister avec li, avec ol:(permet de enumerer 1,2... )-->
+     <ul>
+      <li>Html ist der Mauer, der die Kästchen erstellt und mit Inhalt füllt
+        <ol>
+          <li>Überschriften</li>
+          <li>Absätze und Hevorhebungen</li>
+        </ol>
+      </li>
+      <li>Css ist der Stylist, der kästchen und Inhalte gestaltet und positioniert.</li>
+     </ul>
+      <!--a href= permet de mettre un lien entre les ligne-->
+     <p>Beide Sprachen arbeiten bei der Erstellung und Gestaltung von Webseiten eng zusammen. Besuchen sie <a href="https://pmueller.de/">meine Website</a> für weitere informationen. </p>
+
+    </section>
+
+    <section class="infoboxen">
+      <!-- article: permet de creer des articles sur la page -->
+      <article class="infobox">
+        <h3>News</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        <p><a href="">Ab zum Blog</a></p>
+      </article>
+
+      <article class="infobox">
+        <h3>Kontakt</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        <p><a href="">Hallo sagen</a></p>
+      </article>
+
+    </section>
+    <!-- l'avis des clients -->
+    <section class="kundenstimmen">
+      <h3>Das sagen die kunden</h3>
+      <p>Im folgenden eine kleine Auswahl von kundenstimmen.</p>
+      <!-- blockquote: permet mettre les citations ou commentaire des  clients exp. -->
+      <blockquote class="kundenstimmen">
+      <h2>Wundervolleichter Einstieg</h2>
+      <p>Vielen herzlichen Dank</p>
+      <!-- &mdash: permet de mettre le nom de la personne en dessus -->
+      <footer>&mdash; Vianine</footer>
+
+    </blockquote>
+
+    <blockquote class="kundenstimmen">
+      <h2>Absolut genial</h2>
+      <p>ich bin schlichtweg beigeistert, so macht Lernen Spaß</p>
+      <!-- &mdash: permet de mettre le nom de la personne en dessus -->
+      <footer>&mdash; Jerry</footer>
+
+    </blockquote>
+
+    <blockquote class="kundenstimmen">
+      <h2>Besser geht's nicht</h2>
+      <p>Locker, aber trotzdem voll auf den Punkt</p>
+      <!-- &mdash: permet de mettre le nom de la personne en dessus -->
+      <footer>&mdash; Eric</footer>
+
+    </blockquote>
+
+    </section>
+  </main>
+
+  <!--footer: für Fußbereiche-->
+  <footer class="site-footer">
+    <a href="top">Nach oben</a>
+
+  </footer>
+
+
+
+  </body>
+
+
+
+
+
+
+
+
+
+</html>
